@@ -14,7 +14,7 @@
 
 function naoki_add_checkout_fields( $fields ) {
 	$fields['naoki_nickname'] = array(
-		'label'    => __( 'ニックネーム' ),
+		'label'    => __( '支援者ネーム' ),
 		'type'     => 'text',
 		'class'    => array( 'form-row-wide' ),
 		'priority' => 35,
